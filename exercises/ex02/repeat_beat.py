@@ -6,7 +6,7 @@ __author__ = "730400384"
 repeated_word: str = input("What beat do you want to repeat? ")
 times: int = int(input("How many times do you want to repeat it? "))
 i = 0
-wanted_string = ""
+wanted_string = " "
 
 if times <= 0:
     print("No beat...")
